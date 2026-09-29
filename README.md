@@ -36,16 +36,18 @@ An advanced desktop Todo List application built with **Python** and **Tkinter**.
 
 No external packages are required. Tkinter ships with Python.
 
-## Project structure
+## Project Structure
+
+```text
 todo-app/
 ├── main.py          # Entry point
 ├── gui.py           # Main window, dialogs, themes, filters, export
 ├── database.py      # SQLite layer (tasks, subtasks, templates, stats)
 ├── models.py        # Task and SubTask dataclasses
 ├── utils.py         # Date parsing, validation, helpers
-├── requirements.txt # Placeholder (no third-party deps)
-└── README.md
-
+├── requirements.txt # Placeholder (no third-party dependencies)
+└── README.md        # Project documentation
+```
 
 ## Requirements
 
