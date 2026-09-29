@@ -69,14 +69,53 @@ python main.py
 
 The SQLite database (todo_app.db) is created automatically in the working directory on first run.
 
-Usage
+# Usage
 
-1.Add a task — Click + Add Task (or Ctrl+N). Fill in title (required), description, category, priority, due date/time.
-2.Edit — Select a row and click Edit, press Enter, or double-click.
-3.Complete — Select a task and click Toggle Complete or press Space.
-4.Filter — Use the sidebar (All / Active / Completed / Overdue / Trash) and priority/category controls.
-5.Search — Type in the search box at the top.
-6.Templates — Select a task → Save as Template. Use Load Template to create a new task from one.
-7.Trash — Deleted tasks appear under Trash. You can restore or permanently remove them from there.
-8.Export — Use Export CSV or Export JSON to save the current filtered list.
-9.Theme — Click Toggle Theme in the sidebar for dark/light mode.
+1. **Add a Task**
+   Click **+ Add Task** or press `Ctrl+N`. Fill in the following details:
+
+   * Title *(required)*
+   * Description
+   * Category
+   * Priority
+   * Due date/time
+
+2. **Edit a Task**
+   Select a task and:
+
+   * Click **Edit**
+   * Press `Enter`
+   * Double-click the task
+
+3. **Complete a Task**
+   Select a task and click **Toggle Complete** or press `Space`.
+
+4. **Filter Tasks**
+   Use the sidebar to filter tasks by:
+
+   * All
+   * Active
+   * Completed
+   * Overdue
+   * Trash
+
+   You can also filter by **priority** and **category**.
+
+5. **Search Tasks**
+   Type in the search box at the top to quickly find tasks.
+
+6. **Templates**
+   Select a task and click **Save as Template**.
+   Use **Load Template** to create a new task from a saved template.
+
+7. **Trash**
+   Deleted tasks appear under **Trash**. From there, you can:
+
+   * Restore tasks
+   * Permanently remove tasks
+
+8. **Export**
+   Use **Export CSV** or **Export JSON** to save the current filtered task list.
+
+9. **Theme**
+   Click **Toggle Theme** in the sidebar to switch between **dark mode** and **light mode**.
